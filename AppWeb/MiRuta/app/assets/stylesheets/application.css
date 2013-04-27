@@ -8,6 +8,11 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+.campo{
+  width:500px;
+}
+
+
  .form-signin {
     max-width: 300px;
     padding: 19px 29px 29px;
