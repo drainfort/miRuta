@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  route_id: MyString
+  location: MyString
+  geolocation: 
+
+two:
+  route_id: MyString
+  location: MyString
+  geolocation: 

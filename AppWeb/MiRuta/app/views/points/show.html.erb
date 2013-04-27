@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Route:</b>
+  <%= @point.route_id %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @point.location %>
+</p>
+
+<p>
+  <b>Geolocation:</b>
+  <%= @point.geolocation %>
+</p>
+
+
+<%= link_to 'Edit', edit_point_path(@point) %> |
+<%= link_to 'Back', points_path %>
