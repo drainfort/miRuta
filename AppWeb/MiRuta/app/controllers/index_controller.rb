@@ -13,4 +13,8 @@ class IndexController < ApplicationController
       
   	end
   end
+
+  def result
+  	@route = Route.find('1')
+  end
 end

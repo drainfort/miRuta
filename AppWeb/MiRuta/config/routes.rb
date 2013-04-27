@@ -15,4 +15,5 @@ MiRuta::Application.routes.draw do
 
   match '/signup', to: 'users#new', :as => 'signup'
   match '/index', to: 'index#index', :as => 'index'
+  match '/result', to: 'index#result', :as => 'result'
 end

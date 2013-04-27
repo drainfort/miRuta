@@ -1,5 +1,5 @@
 <table >
-	 <p><%= form_tag index_path, :method => 'post' do %>
+	 <p><%= form_tag result_path, :method => 'post' do %>
       <tr>
           <td><h1 class="form-signin-heading">¿Cuál es MiRuta?</h1></br></td>
       </tr>
@@ -10,7 +10,7 @@
           <td> <%= text_field_tag :final, params[:final], :placeholder => '¿Cuál es tu destino? Ej. calle 154 con carrera 19',class: "campo"%></td>
       </tr>
       <tr><td><%= submit_tag "Dame MiRuta",  :name => 'index', class: "btn btn-large btn-primary"%> </tr></td>
-      <tr><td><%= link_to 'Ayuda', signup_path%> </tr></td>
+      <tr><td><%= link_to 'Ayuda', result_path%> </tr></td>
     <% end %>
 	</td></tr>
 </table>
