@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+C:\Users\JARM\Documents\GitHub\miRuta\.metadata\.plugins\org.eclipse.jdt.core
+472240285.index
+3217290758.index
+1391381573.index

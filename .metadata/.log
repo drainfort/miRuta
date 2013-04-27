@@ -1,0 +1,20 @@
+!SESSION 2013-04-27 10:14:33.684 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CO
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2013-04-27 10:15:58.820
+!MESSAGE DDMS files not found: C:\Users\JARM\Desktop\adt-bundle-windows-x86_64-20130219\eclipse\platform-tools\adb.exe C:\Users\JARM\Desktop\adt-bundle-windows-x86_64-20130219\eclipse\tools\hprof-conv.exe C:\Users\JARM\Desktop\adt-bundle-windows-x86_64-20130219\eclipse\tools\traceview.bat 
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-04-27 10:29:11.274
+!MESSAGE Failed to load properties file for project 'MiRuta'
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-04-27 10:29:15.119
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\JARM'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
