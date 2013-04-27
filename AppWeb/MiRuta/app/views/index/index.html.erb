@@ -1,2 +1,16 @@
-<h1>Index#index</h1>
-<p>Find me in app/views/index/index.html.erb</p>
+<table >
+	 <p><%= form_tag index_path, :method => 'post' do %>
+      <tr>
+          <td><h1 class="form-signin-heading">¿Cuál es MiRuta?</h1></br></td>
+      </tr>
+      <tr>
+          <td> <%= text_field_tag :inicial, params[:inicial], :placeholder => '¿Dónde estás? Ej. calle 127 con carrera 7' %></td>
+      </tr>
+      <tr>
+          <td> <%= text_field_tag :final, params[:final], :placeholder => '¿Cuál es tu destino? Ej. calle 154 con carrera 19'%></td>
+      </tr>
+      <tr><td><%= submit_tag "Dame MiRuta",  :name => 'index', class: "btn btn-large btn-primary"%> </tr></td>
+      <tr><td><%= link_to 'Ayuda', signup_path%> </tr></td>
+    <% end %>
+	</td></tr>
+</table>
